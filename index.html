@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ornelia | RH & Entrepreneure</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">ORNELIA<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#about">À Propos</a></li>
+            <li><a href="#skills">Expertise</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+   <header id="home" class="hero">
+    <div class="hero-container">
+
+        <div class="hero-photo">
+            <img src="photo.jpg" alt="Photo Ornelia">
+        </div>
+
+        <div class="hero-content">
+    <h1 id="hero-title">Ornelia</h1>
+    <p id="hero-text"></p>
+    <a href="#contact" class="btn">Me Contacter</a>
+</div>
+    </div>
+</header>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Mon Parcours</h2>
+            <div class="about-grid">
+                <div class="card">
+                    <i class="fas fa-users-cog"></i>
+                    <h3>RH Experte</h3>
+                    <p>Plus de 5 ans d'expérience dans la gestion de talents, le recrutement stratégique et le développement du capital humain.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>Entrepreneuriat</h3>
+                    <p>Fondatrice de projets innovants, j'accompagne les structures dans leur structuration administrative et opérationnelle.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Multi-Formée</h3>
+                    <p>Certifiée en Leadership, Gestion de projet et Psychologie du travail pour une approche holistique du business.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Laissez-moi un message</h2>
+            <p>Une opportunité, une collaboration ou une question ?</p>
+            
+            <form action="https://formspree.io/f/ttheodore228@gmail.com" method="POST" class="contact-form">
+                <div class="input-group">
+                    <input type="text" name="nom" placeholder="Votre Nom complet" required>
+                    <input type="email" name="_replyto" placeholder="Votre Email" required>
+                </div>
+                <input type="text" name="subject" placeholder="Sujet" required>
+                <textarea name="message" rows="5" placeholder="Votre message..." required></textarea>
+                <button type="submit" class="btn-submit">Envoyer le message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Ornelia - Tous droits réservés.</p>
+            <div class="socials">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
