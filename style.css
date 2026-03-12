@@ -33,7 +33,7 @@ nav{
     align-items:center;
     min-height:80px;
     background:var(--white);
-    position:sticky;
+    position:fixed;
     top:0;
     z-index:1000;
     box-shadow:0 2px 10px rgba(0,0,0,0.05);
