@@ -261,9 +261,9 @@ footer{
 }
 
 .hero-photo img{
-    margin-top: 500px;
-    width:500px;
-    height:330px;
+    margin-top: 200px;
+    width:380px;
+    height:380px;
     border-radius:50%;
     object-fit:cover;
     border:5px solid var(--white);
